@@ -85,7 +85,7 @@ class _HomeSceneState extends State<HomeScene> {
               ),
               Expanded(
                   child: Text(
-                "中国移动物联网有限公司",
+                "视瞳科技有限公司",
                 overflow: TextOverflow.ellipsis,
                 maxLines: 1,
                 style: TextStyle(
@@ -111,7 +111,7 @@ class _HomeSceneState extends State<HomeScene> {
               SizedBox(width: 50),
               Expanded(
                 child: Text(
-                  '中国移动物联网有限公司',
+                  '视瞳科技有限公司',
                   style: TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.bold,
