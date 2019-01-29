@@ -1,0 +1,92 @@
+name: flutter_ulucu
+description: A imitation ulucu Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  dio: ^1.0.13
+  carousel_slider: ^1.0.1
+  cached_network_image: ^0.5.1
+  shared_preferences: ^0.4.3
+  flutter_webview_plugin: ^0.3.0
+  share: ^0.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - img/tab_home_checked.png
+  - img/tab_home_normal.png
+  - img/tab_store_checked.png
+  - img/tab_store_normal.png
+  - img/tab_discover_normal.png
+  - img/tab_discover_checked.png
+  - img/tab_me_checked.png
+  - img/tab_me_normal.png
+  - img/message.png
+  - img/tab_me_head_bg.png
+  - img/icon_message_list_rxbj.png
+  - img/icon_find_event_center.png
+  - img/icon_find_inspect.png
+  - img/icon_find_repeatcustomer.png
+  - img/icon_title_logo.png
+  - img/icon_user_center_allow.png
+  - img/attendance_map.png
+  - img/img_home_event_eventall.png
+  - img/img_home_event_eventdone.png
+  - img/image_default_picture_cache.9.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
