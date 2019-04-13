@@ -6,8 +6,10 @@ import 'HomeMessageView.dart';
 import 'HomeEventView.dart';
 import 'HomeExamView.dart';
 import 'HomeCashView.dart';
+import 'HomeHumanAlertView.dart';
+import 'HomeCustomerView.dart';
 
-// 首页动态
+/// 首页动态
 class HomeScene extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -148,6 +150,8 @@ class _HomeSceneState extends State<HomeScene> {
                   HomeNavView(),
                   HomeMessageView(),
                   HomeEventView(),
+                  HomeHumanAlertView(),
+                  HomeCustomerView(),
                   HomeExamView(),
                   HomeCashView(),
                 ],

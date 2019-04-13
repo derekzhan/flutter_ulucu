@@ -112,12 +112,12 @@ class HomeEventView extends StatelessWidget {
                     Text("  事件总数："),
                     Text(
                       "0",
-                      style: TextStyle(color: Colors.black, fontSize: 18),
+                      style: TextStyle(color: UColor.secondary, fontSize: 18),
                     )
                   ],
                 ),
                 SizedBox(
-                  height: 5,
+                  height: 20,
                 ),
                 Row(
                   children: <Widget>[
@@ -142,7 +142,7 @@ class HomeEventView extends StatelessWidget {
               border: Border.all(color: UColor.paper, width: 3),
             ),
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
                   "0",
@@ -150,7 +150,7 @@ class HomeEventView extends StatelessWidget {
                 ),
                 Text(
                   "待处理",
-                  style: TextStyle(fontSize: 20),
+                  style: TextStyle(fontSize: 18),
                 )
               ],
             ),

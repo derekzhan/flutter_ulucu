@@ -54,7 +54,10 @@ class HomeCashView extends StatelessWidget {
                       "0",
                       style: TextStyle(color: UColor.secondary, fontSize: 25),
                     ),
-                    Text("笔", style: TextStyle(color: UColor.secondary, fontSize: 18),)
+                    Container(
+                      margin: EdgeInsets.only(top: 3),
+                      child: Text("笔", style: TextStyle(color: UColor.secondary, fontSize: 18)),
+                    )
                   ],
                 ),
                 SizedBox(height: 5),
@@ -78,12 +81,16 @@ class HomeCashView extends StatelessWidget {
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
+
                   children: <Widget>[
                     Text(
                       "2",
                       style: TextStyle(color: UColor.secondary, fontSize: 25),
                     ),
-                    Text("家", style: TextStyle(color: UColor.secondary, fontSize: 18),)
+                    Container(
+                      margin: EdgeInsets.only(top: 3),
+                      child: Text("家", style: TextStyle(color: UColor.secondary, fontSize: 18)),
+                    )
                   ],
                 ),
                 SizedBox(height: 5),

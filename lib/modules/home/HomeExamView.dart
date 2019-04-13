@@ -111,7 +111,7 @@ class HomeExamView extends StatelessWidget {
               children: <Widget>[
                 Text(
                   "今日考评",
-                  style: TextStyle(color: UColor.secondary, fontSize: 20),
+                  style: TextStyle(color: UColor.gray, fontSize: 20),
                 ),
                 SizedBox(
                   height: 5,
@@ -130,8 +130,8 @@ class HomeExamView extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 Text(
-                  "今日考评",
-                  style: TextStyle(color: UColor.secondary, fontSize: 20),
+                  "待处理报告",
+                  style: TextStyle(color: UColor.gray, fontSize: 20),
                 ),
                 SizedBox(
                   height: 5,

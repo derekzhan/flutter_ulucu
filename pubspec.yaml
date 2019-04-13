@@ -25,6 +25,7 @@ dependencies:
   shared_preferences: ^0.4.3
   flutter_webview_plugin: ^0.3.0
   share: ^0.5.3
+  flutter_swiper: ^1.0.6
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +65,22 @@ flutter:
   - img/img_home_event_eventall.png
   - img/img_home_event_eventdone.png
   - img/image_default_picture_cache.9.png
+  - img/find_figure.png
+  - img/evalution.png
+  - img/icon_find_guard.png
+  - img/icon_find_hot_analysis.png
+  - img/icon_find_leavepost.png
+  - img/icon_find_message_system.png
+  - img/icon_find_patrol.png
+  - img/icon_find_phonelive_system.png
+  - img/icon_find_posoverlay_system.png
+  - img/icon_find_shake.png
+  - img/icon_find_sharedevice_center.png
+  - img/icon_find_storelive_system.png
+  - img/icon_find_traffic_analysis.png
+  - img/icon_find_wechatvip_system.png
+  - img/icon_home_discover_head_bg.jpg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
